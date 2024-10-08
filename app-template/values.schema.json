@@ -81,7 +81,12 @@
         "type": {
           "title": "Service Type",
           "type": "string",
-          "x-suggestions": [
+          "suggestions": [
+            "ClusterIP",
+            "NodePort",
+            "LoadBalancer"
+          ],          
+          "enum": [
             "ClusterIP",
             "NodePort",
             "LoadBalancer"
