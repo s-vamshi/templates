@@ -81,7 +81,7 @@
         "type": {
           "title": "Service Type",
           "type": "string",    
-          "suggestions": [
+          "x-suggestions": [
             "ClusterIP",
             "NodePort",
             "LoadBalancer"
