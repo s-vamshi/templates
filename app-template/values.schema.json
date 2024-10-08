@@ -81,7 +81,7 @@
         "type": {
           "title": "Service Type",
           "type": "string",    
-          "enum": [
+          "suggestions": [
             "ClusterIP",
             "NodePort",
             "LoadBalancer"
